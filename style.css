@@ -22,3 +22,117 @@
 - Weights: 400, 700 */
 
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+html {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.parent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.block {
+    background-color: hsl(213, 19%, 18%);
+    flex-basis: 420px;
+    border-radius: 10px;
+}
+
+.icon_star {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 10px 40px;
+    
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+    padding: 0 40px 15px 40px;
+}
+
+
+
+.description{
+    font-family: 'Outfit', sans-serif;
+    color:hsl(216, 12%, 54%) ;
+    padding: 0 40px 25px 40px;
+}
+
+.raiting {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0 20px 15px 20px;
+    
+}
+
+.raiting_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.raiting_element:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.raiting_element:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    width: 330px;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:hover{
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+
+}

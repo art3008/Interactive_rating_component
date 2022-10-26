@@ -133,6 +133,7 @@ button {
 
 button:hover{
     color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
     cursor: pointer;
 
 }

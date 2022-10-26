@@ -90,7 +90,7 @@ html {
     
 }
 
-.raiting_element {
+.raiting div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,13 +103,13 @@ html {
     font-weight: 400;
 }
 
-.raiting_element:hover {
+.raiting div:hover {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
 
-.raiting_element:active {
+.raiting div:active {
     background-color: hsl(25, 97%, 53%);
 }
 
@@ -136,4 +136,11 @@ button:hover{
     background-color: hsl(0, 0%, 100%);
     cursor: pointer;
 
+}
+
+.thankYouImg {
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
